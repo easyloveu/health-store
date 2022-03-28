@@ -79,7 +79,7 @@ phases:
                     resources:
                       requests:
                         cpu: "200m"
-                     readinessProbe:
+                    readinessProbe:
                       httpGet:
                         path: /actuator/health
                         port: 8080
